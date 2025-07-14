@@ -151,5 +151,5 @@ A análise revelou padrões claros sobre o comportamento dos preços na cidade. 
 
 **Lucas Alejandro Terres**
 
-* **LinkedIn:** `[seu-linkedin-aqui]`
-* **Email:** `[seu-email-aqui]`
+* **LinkedIn:** `https://www.linkedin.com/in/lucasalejandroterres/`
+* **Email:** `lucasalejandroterres@gmail.com`

@@ -30,28 +30,28 @@ O projeto foi desenvolvido em Python e seguiu um robusto pipeline de ETL (Extra�
 1. **Extração:** Automação da coleta de centenas de arquivos CSV diários do portal de dados abertos.
 2. **Limpeza de Dados:** Tratamento de valores nulos, correção de tipos de dados e remoção de duplicatas.
 3. **Enriquecimento e Normalização:**
-   * **Normalização Geográfica:** Extração e padronização dos bairros de Curitiba.
-   * **Padronização de Redes:** Unificação de nomes variantes de uma mesma rede de supermercado.
-   * **Sistema de Categorização:** Classificação hierárquica em dois níveis (categoria_n1, categoria_n2) para mais de 700 mil descrições de produtos.
+   * **Normalização Geográfica:** Extração e padronização dos bairros de Curitiba.
+   * **Padronização de Redes:** Unificação de nomes variantes de uma mesma rede de supermercado.
+   * **Sistema de Categorização:** Classificação hierárquica em dois níveis (categoria_n1, categoria_n2) para mais de 700 mil descrições de produtos.
 
 ---
 
 ## 📈 Amostra dos Resultados
 
-#### 🏘️ Ranking de Bairros por Custo da Cesta Essencial  
-Mostra os 10 bairros mais caros e os 10 mais baratos para uma cesta padrão de produtos.  
+#### 🏘️ Ranking de Bairros por Custo da Cesta Essencial  
+Mostra os 10 bairros mais caros e os 10 mais baratos para uma cesta padrão de produtos.  
 ![Ranking de Bairros](Results/Graphs/1_grafico_ranking_bairros.png)
 
-#### 🏬 Matriz de Competitividade por Rede e Categoria  
-Aponta quais redes de supermercado são mais competitivas em cada categoria de produto.  
+#### 🏬 Matriz de Competitividade por Rede e Categoria  
+Aponta quais redes de supermercado são mais competitivas em cada categoria de produto.  
 ![Matriz de Competitividade](Results/Graphs/3_grafico_matriz_competitividade_redes_macrocategoria.png)
 
-#### 📈 Evolução Temporal das Subcategorias  
-Acompanha a trajetória de preços das subcategorias mais relevantes ao longo do ano.  
+#### 📈 Evolução Temporal das Subcategorias  
+Acompanha a trajetória de preços das subcategorias mais relevantes ao longo do ano.  
 ![Evolução das Subcategorias](Results/Graphs/painel_evolucao_subcategorias.png)
 
-#### 📊 Guia do Consumidor por Bairro  
-Indica, bairro a bairro, qual rede apresenta os menores preços médios para a cesta essencial.  
+#### 📊 Guia do Consumidor por Bairro  
+Indica, bairro a bairro, qual rede apresenta os menores preços médios para a cesta essencial.  
 ![Guia por Bairro](Results/Graphs/Ranking_RedesMaisBaratas_Bairro.png)
 
 ---
@@ -75,11 +75,11 @@ Quer conferir todos os resultados? Dá uma olhada 👉 [**na pasta completa de g
 
 ## 👨‍💻 Autor
 
-**Lucas Alejandro Terres**  
-🔗 [LinkedIn](https://www.linkedin.com/in/lucasalejandroterres/)  
+**Lucas Alejandro Terres**  
+🔗 [LinkedIn](https://www.linkedin.com/in/lucasalejandroterres/)  
 📧 lucasalejandroterres@gmail.com
 
-&nbsp;  
+&nbsp;  
 &nbsp;
 
 ---
@@ -91,7 +91,7 @@ Quer conferir todos os resultados? Dá uma olhada 👉 [**na pasta completa de g
 [<img src="https://img.shields.io/badge/Matplotlib-3.7-891845?style=for-the-badge&logo=matplotlib&logoColor=white" />](https://matplotlib.org/)
 [<img src="https://img.shields.io/badge/Seaborn-0.12-09435b?style=for-the-badge&logo=seaborn&logoColor=white" />](https://seaborn.pydata.org/)
 
-[**Portuguese Version 🇧🇷**](#🗺️🛒💰onde-é-mais-barato-comprar-em-curitiba-análise-dos-preços-no-varejo-por-bairro-com-dados-públicos)
+[**Portuguese Version 🇧🇷**](#onde-e-mais-barato-comprar-em-curitiba-analise-dos-precos-no-varejo-por-bairro-com-dados-publicos)
 
 ## 📖 About The Project
 
@@ -115,9 +115,9 @@ We explored pricing dynamics along three main axes: **geographic**, **competitiv
 1. **Extraction:** Automated CSV download from public datasets.
 2. **Cleaning:** Handle missing values, fix types, remove duplicates.
 3. **Enrichment:**
-   * Normalize neighborhood names
-   * Unify brand variants
-   * Classify products by category (two-tier system)
+   * Normalize neighborhood names
+   * Unify brand variants
+   * Classify products by category (two-tier system)
 
 ---
 
@@ -143,8 +143,8 @@ Want to check out all the results? Take a look 👉 [**charts and tables folder*
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Autor
 
-**Lucas Alejandro Terres**  
-🔗 [LinkedIn](https://www.linkedin.com/in/lucasalejandroterres/)  
+**Lucas Alejandro Terres**  
+🔗 [LinkedIn](https://www.linkedin.com/in/lucasalejandroterres/)  
 📧 lucasalejandroterres@gmail.com

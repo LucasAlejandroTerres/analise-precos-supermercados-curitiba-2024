@@ -5,7 +5,8 @@
 [<img src="https://img.shields.io/badge/Matplotlib-3.7-891845?style=for-the-badge&logo=matplotlib&logoColor=white" />](https://matplotlib.org/)
 [<img src="https://img.shields.io/badge/Seaborn-0.12-09435b?style=for-the-badge&logo=seaborn&logoColor=white" />](https://seaborn.pydata.org/)
 
-[**Versão em Inglês 🇬🇧**](#where-to-shop-cheaper-in-curitiba-neighborhood-grocery-price-analysis-based-on-public-data)
+[**English Version 🇬🇧**](#where-to-shop-cheaper-in-curitiba-neighborhood-grocery-price-analysis-based-on-public-data)
+
 
 ## 📖 Descrição do Projeto
 
@@ -58,7 +59,7 @@ Indica, bairro a bairro, qual rede apresenta os menores preços médios para a c
 
 ### 📂 Quer ver todos os gráficos e planilhas de resultados?
 
-Quer conferir todos os resultados? Dá uma olhada 👉 [**na pasta completa de gráficos e planilhas**](Results/Graphs) — tá tudo lá!
+Quer conferir todos os resultados? Dá uma olhada 👉 [**na pasta completa de gráficos e planilhas**](Results/) — tá tudo lá!
 
 ---
 
@@ -91,7 +92,7 @@ Quer conferir todos os resultados? Dá uma olhada 👉 [**na pasta completa de g
 [<img src="https://img.shields.io/badge/Matplotlib-3.7-891845?style=for-the-badge&logo=matplotlib&logoColor=white" />](https://matplotlib.org/)
 [<img src="https://img.shields.io/badge/Seaborn-0.12-09435b?style=for-the-badge&logo=seaborn&logoColor=white" />](https://seaborn.pydata.org/)
 
-[**Portuguese Version 🇧🇷**](#🗺️🛒💰onde-é-mais-barato-comprar-em-curitiba-análise-dos-preços-no-varejo-por-bairro-com-dados-públicos)
+[**Portuguese Version 🇧🇷**](#onde-e-mais-barato-comprar-em-curitiba-analise-dos-precos-no-varejo-por-bairro-com-dados-publicos)
 
 ## 📖 About The Project
 
@@ -128,7 +129,7 @@ We explored pricing dynamics along three main axes: **geographic**, **competitiv
 * **[Price Evolution Dashboard](Results/Graphs/painel_evolucao_subcategorias.png)** – Visualizes monthly price changes in key subcategories.
 * **[Cheapest Chain by Neighborhood](Results/Graphs/Ranking_RedesMaisBaratas_Bairro.png)** – Points to the most affordable supermarket per neighborhood.
 
-Want to check out all the results? Take a look 👉 [**charts and tables folder**](Results/Graphs) — it’s all there!
+Want to check out all the results? Take a look 👉 [**charts and tables folder**](Results/) — it’s all there!
 
 ---
 

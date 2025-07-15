@@ -5,7 +5,7 @@
 [<img src="https://img.shields.io/badge/Matplotlib-3.7-891845?style=for-the-badge&logo=matplotlib&logoColor=white" />](https://matplotlib.org/)
 [<img src="https://img.shields.io/badge/Seaborn-0.12-09435b?style=for-the-badge&logo=seaborn&logoColor=white" />](https://seaborn.pydata.org/)
 
-[**English Version 🇬🇧**](#english-version)
+[**English Version 🇬🇧**](#where-to-shop-cheaper-in-curitiba-neighborhood-grocery-price-analysis-based-on-public-data)
 
 ## 📖 Descrição do Projeto
 
@@ -38,10 +38,17 @@ O projeto foi desenvolvido em Python e seguiu um robusto pipeline de ETL (Extra�
 
 ## 📈 Amostra dos Resultados
 
-* **[Ranking de Bairros por Custo da Cesta Essencial](Results/Graphs/1_grafico_ranking_bairros.png)** – Os 10 bairros mais caros e mais baratos.
-* **[Matriz de Competitividade: Preço por Rede e Categoria](Results/Graphs/3_grafico_matriz_competitividade_redes_macrocategoria.png)** – Competitividade entre redes em cada categoria.
-* **[Evolução Temporal das Subcategorias](Results/Graphs/painel_evolucao_subcategorias.png)** – Como os preços variaram ao longo de 2024.
-* **[Guia do Consumidor por Bairro](Results/Graphs/Ranking_RedesMaisBaratas_Bairro.png)** – Qual rede tem o menor preço médio em cada bairro.
+#### Ranking de Bairros por Custo da Cesta Essencial
+![Ranking de Bairros](Results/Graphs/1_grafico_ranking_bairros.png)
+
+#### Matriz de Competitividade: Preço por Rede e Categoria
+![Matriz de Competitividade](Results/Graphs/3_grafico_matriz_competitividade_redes_macrocategoria.png)
+
+#### Evolução Temporal das Subcategorias
+![Evolução das Subcategorias](Results/Graphs/painel_evolucao_subcategorias.png)
+
+#### Guia do Consumidor por Bairro
+![Guia por Bairro](Results/Graphs/Ranking_RedesMaisBaratas_Bairro.png)
 
 ---
 
@@ -69,11 +76,9 @@ Quer conferir todos os resultados? Dá uma olhada 👉 [**na pasta completa de g
 📧 lucasalejandroterres@gmail.com
 
 &nbsp;  
-&nbsp;  
+&nbsp;
 
 ---
-
-<a name="english-version"></a>
 
 # 🗺️🛒💰Where to Shop Cheaper in Curitiba: Neighborhood Grocery Price Analysis Based on Public Data
 
@@ -82,7 +87,7 @@ Quer conferir todos os resultados? Dá uma olhada 👉 [**na pasta completa de g
 [<img src="https://img.shields.io/badge/Matplotlib-3.7-891845?style=for-the-badge&logo=matplotlib&logoColor=white" />](https://matplotlib.org/)
 [<img src="https://img.shields.io/badge/Seaborn-0.12-09435b?style=for-the-badge&logo=seaborn&logoColor=white" />](https://seaborn.pydata.org/)
 
-[**Portuguese Version 🇧🇷**](#️🛒💰onde-é-mais-barato-comprar-em-curitiba-análise-dos-preços-no-varejo-por-bairro-com-dados-públicos)
+[**Portuguese Version 🇧🇷**](#🗺️🛒💰onde-é-mais-barato-comprar-em-curitiba-análise-dos-preços-no-varejo-por-bairro-com-dados-públicos)
 
 ## 📖 About The Project
 
@@ -119,10 +124,7 @@ The work explores price dynamics across three main axes: **geographical**, **com
 * **[Price Evolution Dashboard](Results/Graphs/painel_evolucao_subcategorias.png)** – Monthly price trends.
 * **[Cheapest Chain by Neighborhood](Results/Graphs/Ranking_RedesMaisBaratas_Bairro.png)** – Final consumer guide.
 
----
-
-Want to check out all results?  
-Browse the full set of [**charts and spreadsheets here**](Results/Graphs) — everything is ready to explore!
+Want to explore further? Browse the full set of [**charts and tables**](Results/Graphs) — everything’s ready for you.
 
 ---
 
@@ -133,7 +135,7 @@ Browse the full set of [**charts and spreadsheets here**](Results/Graphs) — ev
 3. Activate and install deps: `pip install -r requirements.txt`
 4. Add raw data to `/dados`
 5. Run scripts in order.
-6. Outputs go to `/resultados`.
+6. Outputs go to `/resultados`
 
 ---
 

@@ -38,40 +38,34 @@ O projeto foi desenvolvido em Python e seguiu um robusto pipeline de ETL (Extra�
 
 ## 📈 Amostra dos Resultados
 
-#### Ranking de Bairros por Custo da Cesta Essencial
-*Este gráfico mostra os 10 bairros mais caros e os 10 mais baratos para uma cesta de produtos padrão.*
-![Neighborhood Ranking](Results/Graphs/1_grafico_ranking_bairros.png)
+* **[Ranking de Bairros por Custo da Cesta Essencial](./results/1_grafico_ranking_bairros.png)**  
+  Comparação entre os 10 bairros mais caros e mais baratos para uma cesta padrão.
 
-#### Matriz de Competitividade: Preço por Rede e Categoria
-*Este mapa de calor revela o posicionamento estratégico de cada supermercado, mostrando quais são mais competitivos em cada categoria principal de produtos.*
-![Competitiveness Matrix](Results/Graphs/3_grafico_matriz_competitividade_redes_macrocategoria.png)
+* **[Matriz de Competitividade: Preço por Rede e Categoria](./results/3_grafico_matriz_competitividade_redes_macrocategoria.png)**  
+  Heatmap que revela o posicionamento de cada rede de supermercado.
 
-#### Evolução Temporal das Principais Subcategorias
-*Este painel mostra a jornada de preços das 12 subcategorias mais relevantes ao longo de 2024, resolvendo o problema de diferentes escalas de preço.*
-![Evolution Dashboard](Results/Graphs/painel_evolucao_subcategorias.png)
+* **[Evolução Temporal das Principais Subcategorias](./results/painel_evolucao_subcategorias.png)**  
+  Visualização da jornada de preços das 12 subcategorias mais relevantes ao longo de 2024.
 
-#### Guia Prático: A Rede Mais Barata por Bairro
-*Esta imagem mostra uma amostra da tabela final gerada, o "guia de compras", que sintetiza a análise e oferece uma recomendação direta ao consumidor sobre onde encontrar a cesta mais barata em diferentes bairros.*
-![Guia do Consumidor por Bairro](Results/Graphs/Ranking_RedesMaisBaratas_Bairro.png)
+* **[Guia Prático: A Rede Mais Barata por Bairro](./results/Ranking_RedesMaisBaratas_Bairro.png)**  
+  Tabela final indicando a rede com menor custo médio por bairro.
 
 ---
 
-### 📂 Quer ver tudo com mais detalhe?
+### 📂 Quer ver todos os gráficos e planilhas de resultados?
 
-Se você curte explorar os dados por conta própria ou quer entender de onde cada insight saiu, **dê uma olhada na pasta completa de resultados!** Ela reúne todos os gráficos, planilhas e tabelas do projeto — tudo pronto para visualização ou reutilização.
-
-👉 [**Clique aqui para acessar a pasta `/resultados`**](./resultados)
+Quer conferir todos os resultados? Dá uma olhada 👉 [**Clique aqui para acessar a pasta `/results`**](./results) — tem tudo lá: gráficos, tabelas e planilhas do projeto.
 
 ---
 
 ## 🚀 Como Executar o Projeto
 
 1. Clone este repositório.
-2. Crie um ambiente virtual (`python -m venv .venv` e ative-o).
+2. Crie um ambiente virtual (`python -m venv .venv`) e ative-o.
 3. Instale as dependências: `pip install -r requirements.txt`.
-4. Coloque os arquivos de dados brutos necessários na pasta `/dados`.
-5. Execute os scripts Python na ordem numérica: `01_...`, `02_...`, `03_...`.
-6. Os resultados (tabelas e gráficos) serão salvos na pasta `/resultados`.
+4. Coloque os arquivos de dados brutos na pasta `/dados`.
+5. Execute os scripts na ordem: `01_...`, `02_...`, `03_...`.
+6. Os resultados serão gerados na pasta `/resultados`.
 
 ---
 
@@ -108,37 +102,45 @@ The work explores price dynamics across three main axes: **geographical** (compa
 ## 🎯 Key Objectives
 
 * Map the cost variation of a representative consumer basket across different city neighborhoods.
-* Compare the price positioning of the main supermarket chains, identifying their strategies by product category.
+* Compare the price positioning of the main supermarket chains.
 * Identify the product categories with the highest price volatility.
-* Synthesize the findings into a practical guide for the Curitiba consumer.
+* Deliver a practical guide for consumers in Curitiba.
 
 ---
 
 ## 🛠️ Methodology & Data Pipeline
 
-1. **Extraction:** Automated download of hundreds of daily CSV files from a public data portal.
-2. **Data Cleaning:** Handling of missing values, data type corrections, and removal of duplicates.
-3. **Enrichment & Normalization:**
-   * **Geographic Normalization:** Standardization of neighborhood names across records.
-   * **Chain Name Harmonization:** Merging of brand variants.
-   * **Category Classification:** Two-level classification system applied to over 700,000 product entries.
+1. **Extraction:** Automated download of daily CSV files from the open data portal.
+2. **Cleaning:** Null handling, type fixing, and deduplication.
+3. **Enrichment:**
+   * **Neighborhood Normalization**
+   * **Retail Chain Harmonization**
+   * **Hierarchical Product Classification**
 
 ---
 
 ## 📈 Results Showcase
 
-*(Same charts as Portuguese section – adjust paths as needed if folder structure changes)*
+* **[Neighborhood Ranking](./results/1_grafico_ranking_bairros.png)** – 10 most and least expensive neighborhoods.
+* **[Competitiveness Matrix](./results/3_grafico_matriz_competitividade_redes_macrocategoria.png)** – Heatmap showing pricing strength by chain.
+* **[Price Evolution Dashboard](./results/painel_evolucao_subcategorias.png)** – Price behavior over time.
+* **[Cheapest Chain by Neighborhood](./results/Ranking_RedesMaisBaratas_Bairro.png)** – Final table with consumer guide.
+
+---
+
+Want to check out all the results?  
+Take a look 👉 [**Full results folder here**](./results) — it's all there: plots, tables, and CSVs.
 
 ---
 
 ## 🚀 How to Run
 
 1. Clone this repository.
-2. Set up a virtual environment: `python -m venv .venv` and activate it.
-3. Install dependencies: `pip install -r requirements.txt`.
-4. Place the raw CSV files into the `/dados` folder.
+2. Create a virtual environment: `python -m venv .venv`
+3. Activate it and run: `pip install -r requirements.txt`
+4. Add your data to the `/dados` folder.
 5. Run the scripts in order.
-6. Outputs (tables/graphs) will be saved in `/resultados`.
+6. Outputs will be saved in `/resultados`.
 
 ---
 

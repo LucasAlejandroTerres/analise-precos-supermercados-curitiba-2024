@@ -46,11 +46,11 @@ The analysis revealed clear patterns in the city's pricing behavior. Below are s
 
 #### Competitiveness Matrix: Price by Chain and Category
 *This heatmap reveals the strategic positioning of each supermarket, showing which are more competitive in each main product category.*
-![Competitiveness Matrix](results/graphs/3_grafico_matriz_competitividade.png)
+![Competitiveness Matrix](Results/Graphs/3_grafico_matriz_competitividade.png)
 
 #### Price Evolution of Main Subcategories
 *This dashboard shows the price journey of the 12 most relevant subcategories throughout 2024, solving the problem of different price scales.*
-![Evolution Dashboard](results/graphs/painel_evolucao_subcategorias.png)
+![Evolution Dashboard](Results/Graphs/painel_evolucao_subcategorias.png)
 
 ---
 
@@ -124,15 +124,15 @@ A análise revelou padrões claros sobre o comportamento dos preços na cidade. 
 
 #### Ranking de Bairros por Custo da Cesta Essencial
 *Este gráfico mostra os 10 bairros mais caros e os 10 mais baratos para uma cesta de produtos padrão.*
-![Ranking de Bairros](resultados/graficos/1_grafico_ranking_bairros.png)
+![Ranking de Bairros](Results/Graphs/1_grafico_ranking_bairros.png)
 
 #### Matriz de Competitividade: Preço por Rede e Categoria
 *Este mapa de calor revela o posicionamento estratégico de cada supermercado, mostrando quais são mais competitivos em cada categoria principal de produtos.*
-![Matriz de Competitividade](resultados/graficos/3_grafico_matriz_competitividade.png)
+![Matriz de Competitividade](Results/Graphs/3_grafico_matriz_competitividade.png)
 
 #### Evolução Temporal das Principais Subcategorias
 *Este painel mostra a jornada de preços das 12 subcategorias mais relevantes ao longo de 2024, resolvendo o problema de diferentes escalas de preço.*
-![Painel de Evolução](resultados/graficos/painel_evolucao_subcategorias.png)
+![Painel de Evolução](Results/Graphs/painel_evolucao_subcategorias.png)
 
 ---
 

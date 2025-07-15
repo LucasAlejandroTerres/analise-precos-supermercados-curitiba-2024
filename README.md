@@ -42,15 +42,15 @@ The analysis revealed clear patterns in the city's pricing behavior. Below are s
 
 #### Neighborhood Ranking by Cost of the Essential Basket
 *This chart shows the 10 most and least expensive neighborhoods for a standard basket of goods.*
-![Neighborhood Ranking](resultados/graphs/1_grafico_ranking_bairros.png)
+![Neighborhood Ranking](results/graphs/1_grafico_ranking_bairros.png)
 
 #### Competitiveness Matrix: Price by Chain and Category
 *This heatmap reveals the strategic positioning of each supermarket, showing which are more competitive in each main product category.*
-![Competitiveness Matrix](resultados/graficos/3_grafico_matriz_competitividade.png)
+![Competitiveness Matrix](results/graphs/3_grafico_matriz_competitividade.png)
 
 #### Price Evolution of Main Subcategories
 *This dashboard shows the price journey of the 12 most relevant subcategories throughout 2024, solving the problem of different price scales.*
-![Evolution Dashboard](resultados/graficos/painel_evolucao_subcategorias.png)
+![Evolution Dashboard](results/graphs/painel_evolucao_subcategorias.png)
 
 ---
 

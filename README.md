@@ -5,7 +5,7 @@
 [<img src="https://img.shields.io/badge/Matplotlib-3.7-891845?style=for-the-badge&logo=matplotlib&logoColor=white" />](https://matplotlib.org/)
 [<img src="https://img.shields.io/badge/Seaborn-0.12-09435b?style=for-the-badge&logo=seaborn&logoColor=white" />](https://seaborn.pydata.org/)
 
-[**English Version 🇬🇧**](#where-to-shop-cheaper-in-curitiba-neighborhood-grocery-price-analysis-based-on-public-data)
+[**Versão em Inglês 🇬🇧**](#where-to-shop-cheaper-in-curitiba-neighborhood-grocery-price-analysis-based-on-public-data)
 
 ## 📖 Descrição do Projeto
 
@@ -32,22 +32,26 @@ O projeto foi desenvolvido em Python e seguiu um robusto pipeline de ETL (Extra�
 3. **Enriquecimento e Normalização:**
    * **Normalização Geográfica:** Extração e padronização dos bairros de Curitiba.
    * **Padronização de Redes:** Unificação de nomes variantes de uma mesma rede de supermercado.
-   * **Sistema de Categorização:** Desenvolvimento de um classificador hierárquico (`categoria_n1`, `categoria_n2`) baseado em um sistema de regras de dupla camada para classificar mais de 700.000 descrições de produtos.
+   * **Sistema de Categorização:** Classificação hierárquica em dois níveis (`categoria_n1`, `categoria_n2`) para mais de 700 mil descrições de produtos.
 
 ---
 
 ## 📈 Amostra dos Resultados
 
-#### Ranking de Bairros por Custo da Cesta Essencial
+#### 🏘️ Ranking de Bairros por Custo da Cesta Essencial  
+Mostra os 10 bairros mais caros e os 10 mais baratos para uma cesta padrão de produtos.  
 ![Ranking de Bairros](Results/Graphs/1_grafico_ranking_bairros.png)
 
-#### Matriz de Competitividade: Preço por Rede e Categoria
+#### 🏬 Matriz de Competitividade por Rede e Categoria  
+Aponta quais redes de supermercado são mais competitivas em cada categoria de produto.  
 ![Matriz de Competitividade](Results/Graphs/3_grafico_matriz_competitividade_redes_macrocategoria.png)
 
-#### Evolução Temporal das Subcategorias
+#### 📈 Evolução Temporal das Subcategorias  
+Acompanha a trajetória de preços das subcategorias mais relevantes ao longo do ano.  
 ![Evolução das Subcategorias](Results/Graphs/painel_evolucao_subcategorias.png)
 
-#### Guia do Consumidor por Bairro
+#### 📊 Guia do Consumidor por Bairro  
+Indica, bairro a bairro, qual rede apresenta os menores preços médios para a cesta essencial.  
 ![Guia por Bairro](Results/Graphs/Ranking_RedesMaisBaratas_Bairro.png)
 
 ---
@@ -91,51 +95,51 @@ Quer conferir todos os resultados? Dá uma olhada 👉 [**na pasta completa de g
 
 ## 📖 About The Project
 
-This project consists of an exploratory data analysis of price dispersion in the food retail sector of Curitiba, Brazil, using public data from the "Clique Economia" program for the year 2024. The main goal is to transform over 700,000 raw price records into actionable intelligence that can empower consumers in their purchasing decisions.
+This project is an exploratory data analysis of food retail price dispersion in Curitiba, Brazil, using public data from the "Clique Economia" program (2024). The goal is to turn over 700,000 raw price entries into actionable insights to help consumers shop smarter.
 
-The work explores price dynamics across three main axes: **geographical**, **competitive**, and **temporal**.
+We explored pricing dynamics along three main axes: **geographic**, **competitive**, and **temporal**.
 
 ---
 
 ## 🎯 Key Objectives
 
-* Map the price variation of a consumer basket across city neighborhoods.
-* Compare pricing strategies of supermarket chains.
-* Identify the most volatile product categories.
-* Provide a practical shopping guide for consumers.
+* Map cost differences for a representative basket across neighborhoods.
+* Compare pricing strategies between major supermarket chains.
+* Detect the most volatile product categories.
+* Deliver a clear and practical shopping guide for consumers.
 
 ---
 
-## 🛠️ Methodology & Data Pipeline
+## 🛠️ Methodology & Pipeline
 
-1. **Extraction:** Automated download of daily CSV files.
-2. **Cleaning:** Nulls, types, duplicates.
+1. **Extraction:** Automated CSV download from public datasets.
+2. **Cleaning:** Handle missing values, fix types, remove duplicates.
 3. **Enrichment:**
-   * Neighborhood normalization
-   * Retail chain harmonization
-   * Two-level product classification
+   * Normalize neighborhood names
+   * Unify brand variants
+   * Classify products by category (two-tier system)
 
 ---
 
 ## 📈 Results Showcase
 
-* **[Neighborhood Ranking](Results/Graphs/1_grafico_ranking_bairros.png)** – Most and least expensive areas.
-* **[Competitiveness Matrix](Results/Graphs/3_grafico_matriz_competitividade_redes_macrocategoria.png)** – Chain positioning by category.
-* **[Price Evolution Dashboard](Results/Graphs/painel_evolucao_subcategorias.png)** – Monthly price trends.
-* **[Cheapest Chain by Neighborhood](Results/Graphs/Ranking_RedesMaisBaratas_Bairro.png)** – Final consumer guide.
+* **[Neighborhood Ranking](Results/Graphs/1_grafico_ranking_bairros.png)** – Highlights the 10 cheapest and most expensive areas.
+* **[Competitiveness Matrix](Results/Graphs/3_grafico_matriz_competitividade_redes_macrocategoria.png)** – Shows which chains are more competitive in each category.
+* **[Price Evolution Dashboard](Results/Graphs/painel_evolucao_subcategorias.png)** – Visualizes monthly price changes in key subcategories.
+* **[Cheapest Chain by Neighborhood](Results/Graphs/Ranking_RedesMaisBaratas_Bairro.png)** – Points to the most affordable supermarket per neighborhood.
 
-Want to explore further? Browse the full set of [**charts and tables**](Results/Graphs) — everything’s ready for you.
+Want to check out all the results? Take a look 👉 [**charts and tables folder**](Results/Graphs) — it’s all there!
 
 ---
 
 ## 🚀 How to Run
 
-1. Clone this repo.
-2. Create a virtual env: `python -m venv .venv`
-3. Activate and install deps: `pip install -r requirements.txt`
-4. Add raw data to `/dados`
-5. Run scripts in order.
-6. Outputs go to `/resultados`
+1. Clone this repository.
+2. Create a virtual environment: `python -m venv .venv`
+3. Activate it and install dependencies: `pip install -r requirements.txt`
+4. Add raw data to the `/dados` folder.
+5. Run the scripts in order.
+6. Outputs (tables and charts) will be saved in `/resultados`.
 
 ---
 

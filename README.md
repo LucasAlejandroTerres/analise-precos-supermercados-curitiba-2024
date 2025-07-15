@@ -5,7 +5,7 @@
 [<img src="https://img.shields.io/badge/Matplotlib-3.7-891845?style=for-the-badge&logo=matplotlib&logoColor=white" />](https://matplotlib.org/)
 [<img src="https://img.shields.io/badge/Seaborn-0.12-09435b?style=for-the-badge&logo=seaborn&logoColor=white" />](https://seaborn.pydata.org/)
 
-[**English Version 🇬🇧**](#where-to-shop-cheaper-in-curitiba-neighborhood-grocery-price-analysis-based-on-public-data)
+[**English Version 🇬🇧**](#english-version)
 
 ## 📖 Descrição do Projeto
 
@@ -27,18 +27,16 @@ O trabalho explora a dinâmica de preços através de três eixos principais: **
 ## 🛠️ Metodologia e Pipeline de Dados
 
 O projeto foi desenvolvido em Python e seguiu um robusto pipeline de ETL (Extração, Transformação e Carga) para garantir a qualidade e a consistência dos dados. As principais etapas foram:
-1.  **Extração:** Automação da coleta de centenas de arquivos CSV diários do portal de dados abertos.
-2.  **Limpeza de Dados:** Tratamento de valores nulos, correção de tipos de dados e remoção de duplicatas.
-3.  **Enriquecimento e Normalização:**
-    * **Normalização Geográfica:** Extração e padronização dos bairros de Curitiba.
-    * **Padronização de Redes:** Unificação de nomes variantes de uma mesma rede de supermercado.
-    * **Sistema de Categorização:** Desenvolvimento de um classificador hierárquico (`categoria_n1`, `categoria_n2`) baseado em um sistema de regras de dupla camada para classificar mais de 700.000 descrições de produtos.
+1. **Extração:** Automação da coleta de centenas de arquivos CSV diários do portal de dados abertos.
+2. **Limpeza de Dados:** Tratamento de valores nulos, correção de tipos de dados e remoção de duplicatas.
+3. **Enriquecimento e Normalização:**
+   * **Normalização Geográfica:** Extração e padronização dos bairros de Curitiba.
+   * **Padronização de Redes:** Unificação de nomes variantes de uma mesma rede de supermercado.
+   * **Sistema de Categorização:** Desenvolvimento de um classificador hierárquico (`categoria_n1`, `categoria_n2`) baseado em um sistema de regras de dupla camada para classificar mais de 700.000 descrições de produtos.
 
 ---
 
 ## 📈 Amostra dos Resultados
-
-A análise revelou padrões claros sobre o comportamento dos preços na cidade. Abaixo estão alguns dos principais gráficos e resultados gerados.
 
 #### Ranking de Bairros por Custo da Cesta Essencial
 *Este gráfico mostra os 10 bairros mais caros e os 10 mais baratos para uma cesta de produtos padrão.*
@@ -60,30 +58,27 @@ A análise revelou padrões claros sobre o comportamento dos preços na cidade. 
 
 ## 🚀 Como Executar o Projeto
 
-1.  Clone este repositório.
-2.  Crie um ambiente virtual (`python -m venv .venv` e ative-o).
-3.  Instale as dependências: `pip install -r requirements.txt`.
-4.  Coloque os arquivos de dados brutos necessários na pasta `/dados`.
-5.  Execute os scripts Python na ordem numérica: `01_...`, `02_...`, `03_...`.
-6.  Os resultados (tabelas e gráficos) serão salvos na pasta `/resultados`.
+1. Clone este repositório.
+2. Crie um ambiente virtual (`python -m venv .venv` e ative-o).
+3. Instale as dependências: `pip install -r requirements.txt`.
+4. Coloque os arquivos de dados brutos necessários na pasta `/dados`.
+5. Execute os scripts Python na ordem numérica: `01_...`, `02_...`, `03_...`.
+6. Os resultados (tabelas e gráficos) serão salvos na pasta `/resultados`.
 
 ---
 
 ## 👨‍💻 Autor
 
-**Lucas Alejandro Terres**
+**Lucas Alejandro Terres**  
+🔗 [LinkedIn](https://www.linkedin.com/in/lucasalejandroterres/)  
+📧 lucasalejandroterres@gmail.com
 
-* **LinkedIn:** `https://www.linkedin.com/in/lucasalejandroterres/`
-* **Email:** `lucasalejandroterres@gmail.com`
-
-&nbsp;
-&nbsp;
+&nbsp;  
+&nbsp;  
 
 ---
----
 
-&nbsp;
-&nbsp;
+<a name="english-version"></a>
 
 # 🗺️🛒💰Where to Shop Cheaper in Curitiba: Neighborhood Grocery Price Analysis Based on Public Data
 
@@ -113,52 +108,34 @@ The work explores price dynamics across three main axes: **geographical** (compa
 
 ## 🛠️ Methodology & Data Pipeline
 
-The project was developed in Python and followed a robust ETL (Extract, Transform, Load) pipeline to ensure data quality and consistency. The main steps were:
-1.  **Extraction:** Automation of the collection of hundreds of daily CSV files from an open data portal.
-2.  **Data Cleaning:** Handling of null values, correction of data types, and removal of duplicates.
-3.  **Enrichment and Normalization:**
-    * **Geographic Normalization:** Extraction and standardization of Curitiba's neighborhoods.
-    * **Chain Standardization:** Unification of variant names for the same supermarket chain.
-    * **Product Categorization System:** Development of a two-tier hierarchical classifier (`category_level_1`, `category_level_2`) based on a sophisticated rule-based dictionary to classify over 700,000 product descriptions.
+1. **Extraction:** Automated download of hundreds of daily CSV files from a public data portal.
+2. **Data Cleaning:** Handling of missing values, data type corrections, and removal of duplicates.
+3. **Enrichment & Normalization:**
+   * **Geographic Normalization:** Standardization of neighborhood names across records.
+   * **Chain Name Harmonization:** Merging of brand variants.
+   * **Category Classification:** Two-level classification system applied to over 700,000 product entries.
 
 ---
 
 ## 📈 Results Showcase
 
-The analysis revealed clear patterns in the city's pricing behavior. Below are some of the key visualizations generated.
-
-#### Neighborhood Ranking by Cost of the Essential Basket
-*This chart shows the 10 most and least expensive neighborhoods for a standard basket of goods.*
-![Neighborhood Ranking](Results/Graphs/1_grafico_ranking_bairros.png)
-
-#### Competitiveness Matrix: Price by Chain and Category
-*This heatmap reveals the strategic positioning of each supermarket, showing which are more competitive in each main product category.*
-![Competitiveness Matrix](Results/Graphs/3_grafico_matriz_competitividade_redes_macrocategoria.png)
-
-#### Price Evolution of Main Subcategories
-*This dashboard shows the price journey of the 12 most relevant subcategories throughout 2024, solving the problem of different price scales.*
-![Evolution Dashboard](Results/Graphs/painel_evolucao_subcategorias.png)
-
-#### Consumer Guide: Cheapest Chain by Neighborhood
-*This image shows a sample of the final output table, the "shopping guide," which synthesizes the analysis and offers a direct recommendation to consumers on where to find the cheapest essential basket in different neighborhoods.*
-![Consumer Guide by Neighborhood](Results/Graphs/Ranking_RedesMaisBaratas_Bairro.png)
+*(Same charts as Portuguese section – adjust paths as needed if folder structure changes)*
 
 ---
 
 ## 🚀 How to Run
 
-1.  Clone this repository.
-2.  Create a virtual environment: `python -m venv .venv` and activate it.
-3.  Install the dependencies: `pip install -r requirements.txt`.
-4.  Place the necessary input data files in the `/dados` folder.
-5.  Run the analysis scripts located in the `/codigo` folder in their numerical order.
-6.  The results (tables and charts) will be saved in the `/resultados` folder.
+1. Clone this repository.
+2. Set up a virtual environment: `python -m venv .venv` and activate it.
+3. Install dependencies: `pip install -r requirements.txt`.
+4. Place the raw CSV files into the `/dados` folder.
+5. Run the scripts in order.
+6. Outputs (tables/graphs) will be saved in `/resultados`.
 
 ---
 
 ## 👨‍💻 Author
 
-**Lucas Alejandro Terres**
-
-* **LinkedIn:** `https://www.linkedin.com/in/lucasalejandroterres/`
-* **Email:** `lucasalejandroterres@gmail.com`
+**Lucas Alejandro Terres**  
+🔗 [LinkedIn](https://www.linkedin.com/in/lucasalejandroterres/)  
+📧 lucasalejandroterres@gmail.com

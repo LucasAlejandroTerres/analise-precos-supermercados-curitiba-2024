@@ -46,7 +46,7 @@ The analysis revealed clear patterns in the city's pricing behavior. Below are s
 
 #### Competitiveness Matrix: Price by Chain and Category
 *This heatmap reveals the strategic positioning of each supermarket, showing which are more competitive in each main product category.*
-![Competitiveness Matrix](Results/Graphs/3_grafico_matriz_competitividade.png)
+![Competitiveness Matrix](3_grafico_matriz_competitividade_redes_macrocategoria.png)
 
 #### Price Evolution of Main Subcategories
 *This dashboard shows the price journey of the 12 most relevant subcategories throughout 2024, solving the problem of different price scales.*
@@ -128,7 +128,7 @@ A análise revelou padrões claros sobre o comportamento dos preços na cidade. 
 
 #### Matriz de Competitividade: Preço por Rede e Categoria
 *Este mapa de calor revela o posicionamento estratégico de cada supermercado, mostrando quais são mais competitivos em cada categoria principal de produtos.*
-![Matriz de Competitividade](Results/Graphs/3_grafico_matriz_competitividade.png)
+![Matriz de Competitividade](Results/Graphs/3_grafico_matriz_competitividade_redes_macrocategoria.png)
 
 #### Evolução Temporal das Principais Subcategorias
 *Este painel mostra a jornada de preços das 12 subcategorias mais relevantes ao longo de 2024, resolvendo o problema de diferentes escalas de preço.*

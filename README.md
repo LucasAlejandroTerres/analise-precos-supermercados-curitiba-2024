@@ -1,4 +1,4 @@
-# 🗺️ The Geography of Prices: An Exploratory Analysis of Retail in Curitiba
+# 🗺️🛒💰Where to Shop Cheaper in Curitiba: Neighborhood Grocery Price Analysis Based on Public Data
 
 [<img src="https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white" />](https://www.python.org/)
 [<img src="https://img.shields.io/badge/Pandas-1.5-150458?style=for-the-badge&logo=pandas&logoColor=white" />](https://pandas.pydata.org/)
@@ -42,7 +42,7 @@ The analysis revealed clear patterns in the city's pricing behavior. Below are s
 
 #### Neighborhood Ranking by Cost of the Essential Basket
 *This chart shows the 10 most and least expensive neighborhoods for a standard basket of goods.*
-![Neighborhood Ranking](resultados/graficos/1_grafico_ranking_bairros.png)
+![Neighborhood Ranking](resultados/graphs/1_grafico_ranking_bairros.png)
 
 #### Competitiveness Matrix: Price by Chain and Category
 *This heatmap reveals the strategic positioning of each supermarket, showing which are more competitive in each main product category.*
@@ -81,7 +81,7 @@ The analysis revealed clear patterns in the city's pricing behavior. Below are s
 &nbsp;
 &nbsp;
 
-# 🗺️ A Geografia dos Preços: Uma Análise Exploratória do Varejo em Curitiba
+# 🗺️🛒💰Onde é Mais Barato Comprar em Curitiba: Análise dos Preços no Varejo por Bairro com Dados Públicos
 
 [<img src="https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white" />](https://www.python.org/)
 [<img src="https://img.shields.io/badge/Pandas-1.5-150458?style=for-the-badge&logo=pandas&logoColor=white" />](https://pandas.pydata.org/)

@@ -56,6 +56,14 @@ O projeto foi desenvolvido em Python e seguiu um robusto pipeline de ETL (Extra�
 
 ---
 
+### 📂 Quer ver tudo com mais detalhe?
+
+Se você curte explorar os dados por conta própria ou quer entender de onde cada insight saiu, **dê uma olhada na pasta completa de resultados!** Ela reúne todos os gráficos, planilhas e tabelas do projeto — tudo pronto para visualização ou reutilização.
+
+👉 [**Clique aqui para acessar a pasta `/resultados`**](./resultados)
+
+---
+
 ## 🚀 Como Executar o Projeto
 
 1. Clone este repositório.
